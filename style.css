@@ -1,0 +1,120 @@
+header{
+    background-image: url(images/back1.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit:fill;
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+}
+header a{
+    text-decoration: underline;
+    color: yellowgreen;
+}
+.navbar{
+    padding: 10px 50px;
+}
+.nav-item:hover{
+    border-bottom: 1px solid yellowgreen;
+}
+@media screen and (max-width:900px){
+    header{
+        height: 300px;
+    }
+}
+.cardOfHeader{
+    background-color: white;
+    width: 30%;
+    color: yellowgreen;
+    margin-left: 5%;
+    border-radius: 20px;
+    padding: 20px;
+}
+.head{
+    font-size: 180px;
+    letter-spacing: 2px;
+}
+.btn{
+    border: 1px solid black;
+    border-radius: 0px;
+}
+.gilaki, .responsive-head{
+    width: 150px;
+    height: 50px;
+    color: black;
+}
+@media screen and (min-width:1200px){
+    .responsive-head, .gilaki{
+        display: none;
+    }
+}
+@media screen and (max-width:1200px){
+    .cardOfHeader{
+        display: none;
+    }
+    .responsive-head, .gilaki{
+        display: block;
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.jumbotron{
+    padding: 10px 20px;
+}
+
+.gallery-item{
+    margin: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+.gallery-item h1, .gallery-item h2, .gallery-item p{
+    display: none;
+}
+.model{
+    display:none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+}
+.model-content{
+    position: relative;
+    width: 40%;
+    margin: 20% auto;
+    padding: 30px;
+    border: 1px solid black;
+    background-color: azure;
+}
+#close-btn{
+    float: right;
+    cursor: pointer;
+}
+@media screen and (max-width: 1150px){
+    .model-content img{
+        width: 300px;
+    }
+    .gallery-item img{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 900px){
+    .model-content img{
+        width: 100px;
+    }
+    .gallery-item img{
+        width: 100px;
+    }
+}
+
+.carousel-indicators .active{
+    background-color: yellowgreen;
+}

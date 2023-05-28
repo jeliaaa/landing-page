@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>landing page</title>
+  </head>
+  <body
+    id="scrollspy-target"
+    data-spy="scroll"
+    data-target="#navbarNav"
+    data-offset="50"
+  >
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: yellowgreen"
+          >FutUr&elinters;</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutUs">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sevices">Book a table</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Menu</a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="text-black text-center py-5" id="home">
+      <div class="cardOfHeader">
+        <h1>From 1923</h1>
+        <h1 class="mt-5 head">BAR</h1>
+        <p class="lead">Just Taste It.</p>
+        <a href="#" class="btn btn-lg mt-5" type="button">Book a table</a>
+        <hr style="color: black; height: 4px" />
+        <a
+          target="_blank"
+          href="https://www.google.com/maps/place/%E1%83%90%E1%83%A6%E1%83%9B%E1%83%90%E1%83%A8%E1%83%94%E1%83%9C%E1%83%94%E1%83%91%E1%83%9A%E1%83%98%E1%83%A1+%E1%83%A5%E1%83%A3%E1%83%A9%E1%83%90,+%E1%83%91%E1%83%90%E1%83%97%E1%83%A3%E1%83%9B%E1%83%98/@41.6232386,41.6125988,16z/data=!4m6!3m5!1s0x406785e5379077c3:0xbb81e3d3b56e5f65!8m2!3d41.6261615!4d41.6175306!16s%2Fg%2F1vfzcnnb?entry=ttu"
+          >Batumi, Aghmashenebeli str.2a</a
+        >
+      </div>
+      <h1 class="responsive-head">BAR</h1>
+      <a href="#" class="gilaki btn btn-lg mt-5" type="button">Book a table</a>
+    </header>
+
+    <main>
+      <section id="aboutUs">
+        <div class="jumbotron">
+          <h1 class="display-4" style="color: yellowgreen;">BAR FutUr</h1>
+          <p class="lead">
+            This is a simple hero unit, a simple jumbotron-style component for
+            calling extra attention to featured content or information.
+          </p>
+          <hr class="my-4" />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus sint placeat dignissimos quibusdam maxime unde quidem. Iusto dignissimos sunt sit ipsam, culpa illum deserunt corporis eaque, omnis obcaecati consectetur vero.
+          </p>
+          <button
+          type="button"
+          class="btn btn-light"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          style="color: yellowgreen;"
+        >
+          See our bar's photos
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Modal title
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body text-center">
+                <div class="gallery">
+                  <div class="heading">
+                      <div>
+                          <h1>Our Bar</h1>
+                          <p>View Astonishing Pictures</p>
+                      </div>
+                      
+                  </div>
+                  <div class="gallery-item" data-member-id="1">
+                      <img src="https://placehold.co/400" alt="first item">
+                      <h1>buildo</h1>
+                      <h2 >MidJourney</h2>
+                      <p>100K$</p>
+                  </div>
+                  <div class="gallery-item" data-member-id="2">
+                      <img src="https://placehold.co/400" alt="second item">
+                      <h1>wallEr</h1>
+                      <h2 >MidJourney</h2>
+                      <p>10k$</p>
+                  </div>
+                  <div class="gallery-item" data-member-id="3">
+                      <img src="https://placehold.co/400" alt="third item">
+                      <h1>plane</h1>
+                      <h2>Arnold Shwartznegger</h2>
+                      <p>203K$</p>
+                  </div>
+                  <div class="gallery-item" data-member-id="3">
+                    <img src="https://placehold.co/400" alt="third item">
+                    <h1>plane</h1>
+                    <h2>Arnold Shwartznegger</h2>
+                    <p>203K$</p>
+                </div>
+                <div class="model" id="model">
+                  <div class="model-content">
+                      <span id="close-btn">&times;</span>
+                      <h1 id="model-heading">Picture: </h1>
+                      <img id="model-img" src="" alt="">
+                      <p id="model-descr">descr</p>
+                      <p id="model-price"></p>
+                  </div>
+              </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+
+       
+      </section>
+      <hr style="height: 3px; color: black;" class="mt-5">
+      <section id="Pricing">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://placehold.co/200x100/png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-black">Product</h5>
+                <p class="text-black">19$</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://placehold.co/200x100/png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-black">Product</h5>
+                <p class="text-black">49$</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://placehold.co/200x100/png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-black">Product</h5>
+                <p class="text-black">99$</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" >
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: yellowgreen;"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: yellowgreen;"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="galleryScript.js"></script>
+  </body>
+</html>
