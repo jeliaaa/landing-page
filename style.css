@@ -64,6 +64,8 @@ header a{
 }
 .jumbotron{
     padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .gallery-item{
@@ -117,4 +119,81 @@ header a{
 
 .carousel-indicators .active{
     background-color: yellowgreen;
+}
+.carousel{
+    width: 80%;
+}
+#pricing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+@media screen and (min-width:625px){
+    .partner{
+        flex-direction: row;
+    }
+}
+@media screen and (max-width:625px){
+    .partner{
+        flex-direction: column;
+    }
+}
+#booking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.table{
+    background-image: url('https://spotonwifi.com/wp-content/uploads/2020/08/WordPress-Table-Reservation-plugin-1000x562-1.jpg');
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reserve{
+    border-radius: 0;
+    text-transform: uppercase;
+    margin-bottom: 250px;
+    width: 200px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.reserve:hover{
+    height: 50px;
+    color: yellowgreen;
+}
+.pay{
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.pay:hover{
+    color: yellowgreen;
+}
+.modal3{
+    display:none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+}
+.modal3-content{
+    position: relative;
+    width: 40%;
+    margin: 20% auto;
+    padding: 30px;
+    border: 1px solid black;
+    background-color: azure;
 }
